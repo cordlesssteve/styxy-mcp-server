@@ -1,0 +1,29 @@
+{
+  "name": "styxy-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for styxy port management and coordination",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test test/*.js"
+  },
+  "keywords": [
+    "mcp",
+    "styxy",
+    "port-management",
+    "claude-code"
+  ],
+  "author": "styxy-project",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "net": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
